@@ -100,7 +100,6 @@ a {
   margin-right: 76px;
   margin-bottom: 24px;
   margin-top: 24px;
-  
 }
 
 .head-list {
@@ -247,7 +246,7 @@ a {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 20px;
+  margin-bottom: 72px;
 }
 
 .us-bisnez {
@@ -312,16 +311,24 @@ a {
 
 .down {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .down-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 246px;
+  margin-top: 16px;
 }
 /* portfolio */
+
+.header-portfolio {
+  border-bottom: 1px solid;
+  color: #e7e9fc;
+}
+
 .body-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -377,10 +384,7 @@ a {
 }
 .button-list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  padding: 12px 24px;
   gap: 24px;
   margin-bottom: 72px;
 }
@@ -391,9 +395,6 @@ a {
   gap: 48px 24px;
 }
 
-.galery-list li {
-  width: calc((100% - 60px) / 3);
-}
 .row-item {
   flex-basis: calc((100% - 48px) / 3);
 }
@@ -403,4 +404,9 @@ a {
   border-left: 1px solid var(--card-text-color);
   border-right: 1px solid var(--card-text-color);
   padding: 32px 16px 32px 16px;
+}
+
+.portfolio-body {
+padding-top: 96px;
+
 }
